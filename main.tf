@@ -8,6 +8,6 @@ resource "aws_instance" "example" {
   ]
 
   tags = {
-    Name = "HelloWorld"
+    Name = "changingname"
   }
 }
