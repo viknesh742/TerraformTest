@@ -13,6 +13,9 @@ pipeline {
           terraform init -reconfigure
           terraform plan
           terraform apply -auto-approve
+          cd /tmp
+          cd viknesh
+          touch file.txt
         '''
       }
     }
